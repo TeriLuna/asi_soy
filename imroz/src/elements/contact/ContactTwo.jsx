@@ -21,11 +21,11 @@ class ContactTwo extends Component{
                                 <h2 className="title">Estamos para ti!.</h2>
                                 <div className="im_address">
                                     <span>Escucha nuestra hermosa voz 🥰:</span>
-                                    <a className="link im-hover" href="phone"> (+57) 324 331 01 63 </a>
+                                    <a className="link im-hover" href="https://api.whatsapp.com/send?phone=+573243310163&text=%C2%A1Hola!%20Estoy%20interesada%20en%20una%20prenda"> (+57) 324 331 01 63 </a>
                                 </div>
                                 <div className="im_address mt--5">
                                     <span>Si te va la timidez nos puedes escribir también 😃:</span>
-                                    <a className="link im-hover" href="email">asisoy@gmail.com</a>
+                                    <a className="link im-hover" href="mailto:asisoy@gmail.com">asisoy@gmail.com</a>
                                 </div>
                             </div>
                             <div className="form-wrapper">

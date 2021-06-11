@@ -23,7 +23,7 @@ const SlideList = [
         category: '',
         title: 'ASÍ SOY',
         description: 'Lo importante de nuestras prendas es la mujer que las viste',
-        buttonText: 'Contact Us',
+        buttonText: 'Empieza el cambio!',
         buttonLink: '/contact'
     }
 ]
@@ -125,12 +125,12 @@ class HomeParticles extends Component{
                                     <li><a href="#home">Así soy</a></li>
                                     <li><a href="/about">Somos!</a></li>
                                     <li><a href="#testimonial">Clientes felices</a></li>
-                                    <li><a href="#contact">Di hola!</a></li>
+                                    <li><a href="/contact">Di hola!</a></li>
                                 </Scrollspy>
                             </nav>
                             <div className="header-btn">
                                 <a className="btn-default btn-border btn-opacity" target="_blank" href="https://themeforest.net/checkout/from_item/31405042?license=regular">
-                                    <span>Buy Now</span>
+                                    <span>Atrévete!</span>
                                 </a>
                             </div>
                             {/* Start Humberger Menu  */}
@@ -170,7 +170,7 @@ class HomeParticles extends Component{
                             }}
                         />
                     </div>
-                    <div className="im_modern_slider bg_image bg_image--34 ">
+                    <div className="im_modern_slider bg_image bg_image--34 " data-black-overlay="3">
                     {/* <a href='https://www.freepik.com/vectors/background'>Background vector created by freepik - www.freepik.com</a> */}
                             {SlideList.map((value , index) => (
                                 <div className="slide slide-style-2 slider-paralax d-flex align-items-center justify-content-center" key={index}>
