@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 class BLogList extends Component{
     render() {
-        const PostList = BlogContent.slice(0 , 6);
+        const PostList = BlogContent.slice(0 , 8);
         return (
              <Fragment>
                  <div className="row mt_dec--30">

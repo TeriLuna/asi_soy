@@ -156,7 +156,7 @@ class StudioAgency extends Component{
                                 <div className="col-lg-4 col-md-6 col-12 mt--30" key={i}>
                                     <div className="im_box">
                                         <div className="thumbnail">
-                                            <Link to="/blog-details">
+                                            <Link to="/designer-portfolio">
                                                 <img className="w-100" src={`/assets/images/blog/blog-${value.images}.jpg`} alt="Blog Images"/>
                                             </Link>
                                         </div>
@@ -167,14 +167,14 @@ class StudioAgency extends Component{
                                                         <Link to="/portfolio-details">{value.category}</Link>
                                                     </div>
                                                     <h4 className="title">
-                                                        <Link to="/blog-details">{value.title}</Link>
+                                                        <Link to="/designer-portfolio">{value.title}</Link>
                                                     </h4>
                                                 </div>
                                                 <div className="content_footer">
-                                                    <Link to="/blog-details" className="rn-btn btn-opacity">Read More</Link>
+                                                    <Link to="/designer-portfolio" className="rn-btn btn-opacity">Read More</Link>
                                                 </div>
                                             </div>
-                                            <Link className="transparent_link" to="/blog-details"></Link>
+                                            <Link className="transparent_link" to="/designer-portfolio"></Link>
                                         </div>
                                     </div>
                                 </div>

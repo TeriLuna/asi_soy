@@ -15,7 +15,7 @@ class About extends Component{
                         <div className="row row--35 align-items-center">
                             <div className="col-lg-5 col-md-12">
                                 <div className="thumbnail">
-                                    <img className="w-100" src="/assets/images/about/about-1.png" alt="About Images"/>
+                                    <img className="w-100" src="/assets/images/about/about-14.jpg" alt="About Images"/>
                                 </div>
                             </div>
                             <div className="col-lg-7 col-md-12">
@@ -28,7 +28,7 @@ class About extends Component{
                                         <p className="description">{description}</p>
                                         <p className="description">{description2}</p>
                                         <div className="purchase-btn">
-                                            <Link className="btn-transparent" to="/">Sigue siendo única!</Link>
+                                            <a className="btn-transparent" href="#somos">Sigue siendo única!</a>
                                         </div>
                                     </div>
                                     

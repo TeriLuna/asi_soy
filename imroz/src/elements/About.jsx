@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "../elements/common/Breadcrumb";
-import { FaFacebookF , FaLinkedinIn , FaTwitter } from "react-icons/fa";
+import { FaFacebookF , FaInstagram , FaTwitter } from "react-icons/fa";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
@@ -12,15 +12,15 @@ class About extends Component{
     render(){
         return(
             <React.Fragment>
-                <PageHelmet pageTitle='About' />
+                <PageHelmet pageTitle='Así somos!' />
 
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
                 {/* Start Breadcrump Area */}
-                <Breadcrumb title={'About'}   />
+                <Breadcrumb title={'Así somos!'}   />
                 {/* End Breadcrump Area */}
 
                 {/* Start About Area */}
-                <div className="about-area ptb--120 bg_color--1">
+                <div className="about-area ptb--120 bg_image--1">
                     <AboutComp />
                 </div>
                 {/* End About Area */}
@@ -63,32 +63,33 @@ class About extends Component{
                 {/* End Finding Us Area  */}
 
                 {/* Start Team Area  */}
-                <div className="rn-team-area bg_image--37 ptb--120">
+                <div className="rn-team-area bg_image--1 ptb--120">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title text-center mb--25">
-                                    <span className="subtitle">Skilled team</span>
-                                    <h2 className="title">Skilled Team</h2>
-                                    <p className="description">There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration.</p>
+                                    <span className="subtitle" id="somos">Conócenos un poco más</span>
+                                    <h2 className="title">Así somos</h2>
+                                    <p className="description">El super equipo que hace que todo sea posible... <br /> sí, sí, hasta volar.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="row">
                             
                             {/* Start Single Team  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-12">
                                 <div className="team">
                                     <div className="thumbnail">
                                         <img className="w-100" src="/assets/images/team/team-01.jpg" alt="Blog Images"/>
                                     </div>
                                     <div className="content">
-                                        <h4 className="title">Moni</h4>
-                                        <p className="designation">La moño</p>
+                                        <h4 className="title">Monica Rodriguez</h4>
+                                        <p className="designation">Nuestra CEO</p>
+                                        <p className="designation">Ipsum kkjndsfkndkgjnfnsdzncds kzmflkcznmsd3fnjvzkjdnsc knzslcñkjznsdvñxnjk</p>
                                     </div>
                                     <ul className="social-icon" >
                                         <li><a target='_blank' href="https://www.facebook.com/"><FaFacebookF /></a></li>
-                                        <li><a href="http://linkedin.com/"><FaLinkedinIn /></a></li>
+                                        <li><a target='_blank' href="https://www.instagram.com/monirodriguez8/"><FaInstagram /></a></li>
                                         {/* <li><a href="https://twitter.com/"><FaTwitter /></a></li> */}
                                     </ul>
                                 </div>
@@ -96,18 +97,19 @@ class About extends Component{
                             {/* End Single Team  */}
 
                             {/* Start Single Team  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div className="col-lg-6 col-md-6 col-sm-6 col-12">
                                 <div className="team">
                                     <div className="thumbnail">
                                         <img className="w-100" src="/assets/images/team/team-02.jpg" alt="Blog Images"/>
                                     </div>
                                     <div className="content">
-                                        <h4 className="title">BM. Alamin</h4>
-                                        <p className="designation">Sr. Web Developer</p>
-                                    </div>
+                                        <h4 className="title">Yeiro Andrade</h4>
+                                        <p className="designation">Nuestro CEO</p>
+                                        <p className="designation">Ipsum kkjndsfkndkgjnf nsdzncdskzmflkcznmsd3fnjvzkjdnsckn zslcñkjznsdvñxnjk</p>
+                                    </div> 
                                     <ul className="social-icon" >
-                                        <li><a href="https://www.facebook.com/"><FaFacebookF /></a></li>
-                                        <li><a href="http://linkedin.com/"><FaLinkedinIn /></a></li>
+                                        <li><a target='_blank' href="https://www.facebook.com/"><FaFacebookF /></a></li>
+                                        <li><a target='_blank' href="https://www.instagram.com/andrade_yeiro10/"><FaInstagram /></a></li>
                                         {/* <li><a href="https://twitter.com/"><FaTwitter /></a></li> */}
                                     </ul>
                                 </div>
@@ -115,7 +117,7 @@ class About extends Component{
                             {/* End Single Team  */}
 
                             {/* Start Single Team  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                            {/* <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div className="team">
                                     <div className="thumbnail">
                                         <img className="w-100" src="/assets/images/team/team-03.jpg" alt="Blog Images"/>
@@ -126,11 +128,11 @@ class About extends Component{
                                     </div>
                                     <ul className="social-icon" >
                                         <li><a href="https://www.facebook.com/"><FaFacebookF /></a></li>
-                                        <li><a href="http://linkedin.com/"><FaLinkedinIn /></a></li>
+                                        <li><a href="http://linkedin.com/"><FaInstagram /></a></li>
                                         <li><a href="https://twitter.com/"><FaTwitter /></a></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                             {/* End Single Team  */}
 
                         </div>

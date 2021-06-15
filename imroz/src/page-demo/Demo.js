@@ -24,7 +24,7 @@ const SlideList = [
         title: 'ASÍ SOY',
         description: 'Lo importante de nuestras prendas es la mujer que las viste',
         buttonText: 'Empieza el cambio!',
-        buttonLink: '/contact'
+        buttonLink: '/designer-protfolio',
     }
 ]
 
@@ -129,7 +129,7 @@ class HomeParticles extends Component{
                                 </Scrollspy>
                             </nav>
                             <div className="header-btn">
-                                <a className="btn-default btn-border btn-opacity" target="_blank" href="https://themeforest.net/checkout/from_item/31405042?license=regular">
+                                <a className="btn-default btn-border btn-opacity" href="/designer-portfolio">
                                     <span>Atrévete!</span>
                                 </a>
                             </div>
@@ -193,7 +193,7 @@ class HomeParticles extends Component{
                 {/* End Slider Area   */}
                 
                 {/* Start Blog Area */}
-                <div className="rn-blog-area pt--120 pb--140 bg_image bg_image--35" id="blog">
+                <div className="rn-blog-area pt--120 pb--140 bg_image bg_image--33" id="blog">
                     <div className="container">
                         <div className="row align-items-end">
                             <div className="col-lg-12">
@@ -210,7 +210,7 @@ class HomeParticles extends Component{
                                     {PostList.map((value , i ) => (
                                         <div className="im_box" key={i}>
                                             <div className="thumbnail">
-                                                <Link to="/blog-details">
+                                                <Link to="/designer-portfolio">
                                                     <img className="w-100" src={`/assets/images/blog/blog-${value.images}.jpg`} alt="Blog Images"/>
                                                 </Link>
                                             </div>
@@ -221,14 +221,14 @@ class HomeParticles extends Component{
                                                             <Link to="/portfolio-details">{value.category}</Link>
                                                         </div>
                                                         <h4 className="title">
-                                                            <Link to="/blog-details">{value.title}</Link>
+                                                            <Link to="/designer-portfolio">{value.title}</Link>
                                                         </h4>
                                                     </div>
                                                     <div className="content_footer">
-                                                        <Link to="/blog-details" className="rn-btn btn-opacity">Es pa' mi!</Link>
+                                                        <Link to="/designer-portfolio" className="rn-btn btn-opacity">Es pa' mi!</Link>
                                                     </div>
                                                 </div>
-                                                <Link className="transparent_link" to="/blog-details"></Link>
+                                                <Link className="transparent_link" to="/designer-portfolio"></Link>
                                             </div>
                                         </div>
                                     ))}
@@ -240,7 +240,7 @@ class HomeParticles extends Component{
                 {/* End Blog Area */}
 
                 {/* Start Testimonial Area */}
-                <div className="rn-testimonial-area bg_image bg_image--35 ptb--120" id="testimonial">
+                <div className="rn-testimonial-area bg_image bg_image--33 ptb--120" id="testimonial">
                     <div className="container">
                         <Testimonial />
                     </div>
@@ -248,7 +248,7 @@ class HomeParticles extends Component{
                 {/* End Testimonial Area */}
 
                 {/* Start Contact Us */}
-                <div className="rn-contact-us ptb--120 bg_image bg_image--36" id="contact">
+                <div className="rn-contact-us ptb--120 bg_image bg_image--1" id="contact">
                     <Contact />
                 </div>
                 {/* End Contact Us */}

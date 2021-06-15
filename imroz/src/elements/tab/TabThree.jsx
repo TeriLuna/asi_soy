@@ -200,10 +200,10 @@ class TabStyleThree extends Component {
                         <div className="col-lg-12">
                             <div className="tablist-inner">
                                 <TabList className="pv-tab-button text-center mt--0">
-                                    <Tab><span>All Project</span></Tab>
-                                    <Tab><span>Web Design</span></Tab>
-                                    <Tab><span>Logo Design</span></Tab>
-                                    <Tab><span>Mobile App</span></Tab>
+                                    <Tab><span>Todas las coleciones</span></Tab>
+                                    <Tab><span>Irreverente</span></Tab>
+                                    <Tab><span>Soon</span></Tab>
+                                    <Tab><span>Soon</span></Tab>
                                 </TabList>
                             </div>
                         </div>

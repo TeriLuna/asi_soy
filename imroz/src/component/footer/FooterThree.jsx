@@ -8,7 +8,7 @@ const SocialShare = [
 
 const FooterThree = () => {
     return (
-        <div className="footer-style-3 pt--100 pb--30 bg_image--35">
+        <div className="footer-style-2 pt--100 pb--30 bg_image--33" data-black-overlay='8'>
             <div className="wrapper">
                 <div className="row align-items-center justify-content-between">
                     <div className="col-lg-12">
@@ -20,8 +20,8 @@ const FooterThree = () => {
                                 </div>
                             </div> */}
                             <div className="logo">
-                                <a href="/home-one">
-                                    <img src="/assets/images/logo/asi_soy_transp_negro.png" alt="Logo images"/>
+                                <a href="/">
+                                    <img src="/assets/images/logo/asi_soy_transp_bco.png" alt="Logo images"/>
                                 </a>
                             </div>
                             <ul className="social-share d-flex justify-content-center liststyle">

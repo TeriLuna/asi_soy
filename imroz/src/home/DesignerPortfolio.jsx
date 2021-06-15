@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import ModalVideo from 'react-modal-video';
 import ScrollToTop from 'react-scroll-up';
 import TextLoop from "react-text-loop";
-import FooterTwo from "../component/footer/FooterTwo";
+import FooterThree from "../component/footer/FooterThree";
 import { FiChevronUp} from "react-icons/fi";
-import Header from "../component/header/HeaderFour";
+import Header from "../component/header/Header";
 import TabThree from "../elements/tab/TabThree";
 import Helmet from "../component/common/Helmet";
 
@@ -13,7 +13,7 @@ import { videoTagString, VideoTag } from 'react-video-tag';
 const SlideList = [
     {
         textPosition: 'text-left',
-        category: 'Welcome to my World',
+        category: 'Bienvenid@ al inicio de algo increíble!',
         description: '',
         buttonText: '',
         buttonLink: ''
@@ -34,13 +34,13 @@ class DesignerPortfolio extends Component {
     render() {
         return (
             <div>
-                <Helmet pageTitle="Asì soy" />
+                <Helmet pageTitle="Así soy" />
                 {/* Start Header Area  */}
                 <Header headerPosition="header--static" logo="symbol-dark" color="color-black"/>
                 {/* End Header Area  */}
 
                 <div className="btn-hire">
-                    <a className="btn-default" href="/contact">Hire Me</a>
+                    <a className="btn-default" href="/contact">Di holi ✨</a>
                 </div>
 
                 <div className="slider-wrapper">
@@ -51,23 +51,25 @@ class DesignerPortfolio extends Component {
                                 <div className="row align-items-center">
                                     <div className="col-lg-5">
                                         <div className="designer-thumbnail">
-                                            <img src="/assets/images/about/designer-avatar.png" alt="Slider Images"/>
+                                            <img src="/assets/images/about/avatar.jpg" alt="Slider Images"/>
                                         </div>
                                     </div>
                                     <div className="col-lg-7 mt_md--40 mt_sm--40">
                                         <div className={`inner ${value.textPosition}`}>
                                             {value.category ? <span>{value.category}</span> : ''}
-                                            <h1 className="title">Hi, I’m Jone Doe <br/>
+                                            <h1 className="title">Repítelo <br/>
                                             <TextLoop>
-                                                <span> UX Designer.</span>
-                                                <span> UI Designer.</span>
-                                                <span> Visual Designer.</span>
+                                                <span> Soy fuerte</span>
+                                                <span> Soy capaz</span>
+                                                <span> Me amo</span>
+                                                <span> Soy chimbita</span>
+                                                <span> Lo más lindo del mundo</span>
                                             </TextLoop>{" "}
                                             </h1>
                                             {value.description ? <p className="description">{value.description}</p> : ''}
                                             <div className="d-flex align-items-center mt--10">
-                                                <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='ZOoVOfieAF8' onClose={() => this.setState({isOpen: false})} />
-                                                <button className="video-popup theme-color" onClick={this.openModal}><span className="play-icon"></span></button>
+                                                {/* <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='ZOoVOfieAF8' onClose={() => this.setState({isOpen: false})} />
+                                                <button className="video-popup theme-color" onClick={this.openModal}><span className="play-icon"></span></button> */}
                                             </div>
                                         </div>
                                     </div>
@@ -79,7 +81,7 @@ class DesignerPortfolio extends Component {
                 </div>
                 
                 {/* Start Designer Portfolio  */}
-                <div className="designer-portfolio-area ptb--120 bg_color--1">
+                <div className="designer-portfolio-area ptb--120 bg_image--33" >
                     <div className="wrapper plr--70 plr_sm--30 plr_md--30">
                         <TabThree column="col-lg-4 col-md-6 col-sm-6 col-12" />
                     </div>
@@ -87,7 +89,7 @@ class DesignerPortfolio extends Component {
                 {/* End Designer Portfolio  */}
 
                 {/* Start Footer Style  */}
-                <FooterTwo />
+                <FooterThree />
                 {/* End Footer Style  */}
                 
                 {/* Start Back To Top */}
