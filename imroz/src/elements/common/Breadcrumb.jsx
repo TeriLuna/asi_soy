@@ -6,7 +6,7 @@ class Breadcrumb extends Component{
         const { title , parent} = this.props;
         return(
             <React.Fragment>
-                <div className="breadcrumb-area rn-bg-color ptb--120 bg_image bg_image--34">
+                <div className="breadcrumb-area rn-bg-color ptb--120 bg_image bg_image--1">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">

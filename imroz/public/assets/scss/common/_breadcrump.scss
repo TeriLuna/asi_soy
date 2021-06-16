@@ -104,7 +104,9 @@
         width: 100%;
         z-index: -1;
         background: var(--color-primary);
-        background: linear-gradient(90deg, #1C99FE 20.69%, #7644FF 50.19%, #FD4766 79.69%);
+        // background: linear-gradient(90deg, #CA8077 20.69%, #F2AA3E 50.19%, #CA8077 79.69%);
+        // background: linear-gradient(90deg, #F2AA3E 20.69%, #CA8077 50.19%, #F2AA3E 79.69%);
+        background: linear-gradient(90deg, #f2aa3ebd 20.69%, #CA8077 50.19%, #f2aa3ebd 79.69%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--color-primary)', endColorstr='var(--color-secondary)',GradientType=1 );
         top: 0;
         left: 0;

@@ -142,7 +142,7 @@ Footer Styles
                         font-size: 16px;
                         padding: 5px 0;
                         &:hover {
-                            color: var(--color-primary);
+                            color: var(--color-secondary);
                         }
                     }
 
@@ -190,7 +190,7 @@ Footer Styles
         a {
             display: block;
             img {
-                max-height: 60px;
+                max-height: 120px;
             }
         }
     }
@@ -203,7 +203,7 @@ Footer Styles
 /* Footer Style Two  */
 .footer-style-2 {
     p {
-        color: var(--color-gray);
+        color: var(--color-primary);
         font-size: 14px;
     }
 }

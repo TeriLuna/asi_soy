@@ -7,55 +7,55 @@ const TabOne = [
     {
         image: '01',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-01.jpg',
-        category: 'Web Design',
+        category: 'Pantalon/Short',
         title: 'Design is a creative part'
     },
     {
         image: '02',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-02.jpg',
-        category: 'Mobile App',
+        category: 'Vestidos',
         title: 'The service provide for designer'
     },
     {
         image: '03',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-03.jpg',
-        category: 'Web Design',
-        title: 'Mobile App landing Design'
+        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-1-2.jpg',
+        category: 'Pantalon/Short',
+        title: 'Vestidos landing Design'
     },
     {
         image: '04',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-04.jpg',
-        category: 'Mobile App',
+        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-1-3.jpg',
+        category: 'Vestidos',
         title: 'Logo Design creativity'
     },
     {
         image: '05',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-05.jpg',
-        category: 'Web Design',
+        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-2.jpg',
+        category: 'Pantalon/Short',
         title: 'Laptop design is the part of design'
     },
     {
         image: '06',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-06.jpg',
-        category: 'Logo Design',
-        title: 'Mobile Application the big show'
+        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-2-1.jpg',
+        category: 'Top',
+        title: 'Vestidoslication the big show'
     },
     {
         image: '07',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-07.jpg',
-        category: 'Freelancer',
+        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-2-2.jpg',
+        category: 'Pantalon/Short',
         title: 'Web application create a app'
     },
     {
         image: '08',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-08.jpg',
-        category: 'Logo Designer',
+        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-2-3.jpg',
+        category: 'Top',
         title: 'Show your mobile data.'
     },
     {
         image: '09',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-09.jpg',
-        category: 'Logo Designer',
+        category: 'Top',
         title: 'Data application is a mobile data.'
     },
    
@@ -66,37 +66,37 @@ const TabTwo = [
     {
         image: '06',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-06.jpg',
-        category: 'Logo Design',
+        category: 'Pantalon/Short',
         title: 'Logo design is the main part for a designer'
     },
     {
         image: '07',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-07.jpg',
-        category: 'Freelancer',
+        category: 'Pantalon/Short',
         title: 'Getting tickets to the big show'
     },
     {
         image: '08',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-08.jpg',
-        category: 'App Landing',
-        title: 'Mobile App landign is a landing page design'
+        category: 'Pantalon/Short',
+        title: 'Vestidos landign is a landing page design'
     },
     {
         image: '09',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-09.jpg',
-        category: 'Dasboard',
+        category: 'Pantalon/Short',
         title: 'Dasboard design is the main part for data management'
     },
     {
         image: '10',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-10.jpg',
-        category: 'T-shirt Design',
+        category: 'Pantalon/Short',
         title: 'T-shirt design is the popular design for digital market'
     },
     {
         image: '11',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-11.jpg',
-        category: 'Logo Designer',
+        category: 'Pantalon/Short',
         title: 'Getting tickets to the big show'
     },
 ]
@@ -104,38 +104,38 @@ const TabTwo = [
 const TabThree = [
     {
         image: '04',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-04.jpg',
-        category: 'Mobile App',
+        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-1-1.jpg',
+        category: 'Vestidos',
         title: 'Getting tickets to the big show'
     },
     {
         image: '05',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-05.jpg',
-        category: 'Web Design',
+        category: 'Vestidos',
         title: 'Getting tickets to the big show'
     },
     {
         image: '06',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-06.jpg',
-        category: 'Logo Design',
+        category: 'Vestidos',
         title: 'Getting tickets to the big show'
     },
     {
         image: '07',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-07.jpg',
-        category: 'Freelancer',
+        category: 'Vestidos',
         title: 'Getting tickets to the big show'
     },
     {
         image: '08',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-08.jpg',
-        category: 'Freelancer',
+        category: 'Vestidos',
         title: 'Getting tickets to the big show'
     },
     {
         image: '09',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-09.jpg',
-        category: 'Freelancer',
+        category: 'Vestidos',
         title: 'Getting tickets to the big show'
     },
 ]
@@ -144,37 +144,37 @@ const TabFour = [
     {
         image: '06',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-06.jpg',
-        category: 'Logo Design',
+        category: 'Top',
         title: 'Getting tickets to the big show'
     },
     {
         image: '07',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-07.jpg',
-        category: 'Freelancer',
+        category: 'Top',
         title: 'Getting tickets to the big show'
     },
     {
         image: '08',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-08.jpg',
-        category: 'Logo Designer',
+        category: 'Top',
         title: 'Getting tickets to the big show'
     },
     {
         image: '09',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-09.jpg',
-        category: 'Freelancer',
+        category: 'Top',
         title: 'Getting tickets to the big show'
     },
     {
         image: '10',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-10.jpg',
-        category: 'Logo Designer',
+        category: 'Top',
         title: 'Getting tickets to the big show'
     },
     {
         image: '11',
         bigImage: '/assets/images/portfolio/big/dp-big--portfolio-11.jpg',
-        category: 'Logo Designer',
+        category: 'Top',
         title: 'Getting tickets to the big show'
     },
 ]
@@ -201,9 +201,9 @@ class TabStyleThree extends Component {
                             <div className="tablist-inner">
                                 <TabList className="pv-tab-button text-center mt--0">
                                     <Tab><span>Todas las coleciones</span></Tab>
-                                    <Tab><span>Irreverente</span></Tab>
-                                    <Tab><span>Soon</span></Tab>
-                                    <Tab><span>Soon</span></Tab>
+                                    <Tab><span>Pantalon/Short</span></Tab>
+                                    <Tab><span>Vestidos</span></Tab>
+                                    <Tab><span>Top</span></Tab>
                                 </TabList>
                             </div>
                         </div>
@@ -228,7 +228,7 @@ class TabStyleThree extends Component {
                                                 tab1: (tab1 + 1) % TabOne.length,
                                             })
                                         }
-                                        imageLoadErrorMessage = 'Image Loading ...'
+                                        imageLoadErrorMessage = 'Ya vienen cositas bonitas, no desesperes ...'
                                         enableZoom={false}
                                     />
                                 )}
