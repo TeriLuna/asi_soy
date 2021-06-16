@@ -10,6 +10,16 @@ class ContactTwo extends Component{
             rnMessage: '',
         };
     }
+
+    handleInputChange(event) {
+        event.preventDefault();
+        const target = event.target;
+        const name = target.name;
+        const value = target.value;
+
+    this.setState({ [name]: value });
+    }
+
     render(){
         return(
             <div className="contact-form--1">

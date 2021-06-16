@@ -111,7 +111,7 @@ class HomeParticles extends Component{
         
         return(
             <Fragment>
-                <Helmet pageTitle="Home Particles" />
+                <Helmet pageTitle="Así soy ✨" />
 
                 {/* Start Header Area  */}
                 <header className="header-area formobile-menu header--fixed default-color">

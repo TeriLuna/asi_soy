@@ -34,7 +34,7 @@ class DesignerPortfolio extends Component {
     render() {
         return (
             <div>
-                <Helmet pageTitle="Así soy" />
+                <Helmet pageTitle="Sé únic@" />
                 {/* Start Header Area  */}
                 <Header headerPosition="header--static" logo="symbol-dark" color="color-black"/>
                 {/* End Header Area  */}

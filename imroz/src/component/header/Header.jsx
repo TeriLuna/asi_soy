@@ -120,7 +120,7 @@ class Header extends Component{
                         </nav>
                         <div className="header-btn">
                             <a className="btn-default btn-border btn-opacity" href="/designer-portfolio">
-                                <span>Sé Única</span>
+                                <span>Sé Únic@</span>
                             </a>
                         </div>
                         {/* Start Humberger Menu  */}

@@ -23,7 +23,7 @@ class Contact extends Component{
     render(){
         return(
             <React.Fragment>
-                <PageHelmet pageTitle='Contact' />
+                <PageHelmet pageTitle='Hablemos! 😃📲' />
 
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
 
